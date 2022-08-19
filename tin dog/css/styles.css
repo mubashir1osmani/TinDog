@@ -1,0 +1,158 @@
+/* Id's */
+
+#title {
+    background-color: #ff4c68;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+#cta {
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    font-family: 'Montserrat';
+    color: #fff;
+    text-align: center;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+#footer {
+    background-color: #fff;
+    padding: 4% 5%;
+    text-align: center;
+    line-height: 3rem;
+}
+
+/* Classes */
+
+.image {
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+.cta-font {
+    font-family: 'Montserrat Black';
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.center {
+    margin: 5% 0%;
+    text-align: center;
+    font-size: 250%;
+    color: #ef8172;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+.center:hover{
+    color:#ff4c68;
+}
+
+.title-text {
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+}
+.testimonial-text {
+    font-size: 2rem;
+    line-height: 1.5;
+}
+.feature-text {
+    text-align: center;
+    font-weight: bold;
+}
+/* Navigation bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 3rem;
+    color: white;
+}
+
+.nav-item {
+    font-family: 'Ubuntu';
+    font-size: 1rem;
+}
+
+.nav-link {
+    color: white;
+    opacity: 74%;
+    margin: 0px 15px;
+}
+
+.test-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+.press-log{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* HTML elements */
+
+body{
+    font-family: 'Montserrat';
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat-Bold';
+}
+
+p {
+    color: #8f8f8f;
+    text-align: center;
+}
+
+button {
+    margin: 20px 4px
+}
+
+/* Media Queries */
+
+@media (max-width:1120px) {
+    .image {
+        position: static;
+        width: 60%;
+        transform: rotate(0);
+    }
+    #title {
+        text-align: center;
+    }
+}
